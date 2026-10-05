@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IdeaForge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">💡 IdeaForge</div>
+    <p>Turn Ideas Into Impact</p>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h1>Forge Your Next Great Idea</h1>
+      <p>
+        Turn creative ideas into practical solutions for real-world problems.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Submit Your Idea</h2>
+
+      <input
+        id="title"
+        type="text"
+        placeholder="Enter your idea title"
+      >
+
+      <textarea
+        id="problem"
+        placeholder="What problem does your idea solve?"
+      ></textarea>
+
+      <textarea
+        id="solution"
+        placeholder="Describe your solution"
+      ></textarea>
+
+      <button onclick="addIdea()">Add Idea</button>
+
+      <p id="message"></p>
+    </section>
+
+    <section>
+      <h2>Community Ideas</h2>
+      <div id="ideas"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 IdeaForge | Built for Innovation
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
